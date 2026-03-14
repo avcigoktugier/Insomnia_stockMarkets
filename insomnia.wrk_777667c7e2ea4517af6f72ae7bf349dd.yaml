@@ -147,6 +147,29 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: https://api.massive.com/v2/aggs/ticker/C:EURUSD/range/1/day/2025-12-01/2026-03-14?adjusted=true&sort=asc&limit=120&apiKey=a6NpUFhWHU1kPbhTHxnvIbQKeHQLfnjr
+    name: EUR/USD -2025-2026
+    meta:
+      id: req_2eedec0db1f4497c94fea253a8ff2e5e
+      created: 1773465692934
+      modified: 1773465800356
+      isPrivate: false
+      description: ""
+      sortKey: -1773465692934
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
