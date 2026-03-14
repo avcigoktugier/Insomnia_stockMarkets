@@ -1,0 +1,162 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Imported Collection
+meta:
+  id: wrk_777667c7e2ea4517af6f72ae7bf349dd
+  created: 1773456868284
+  modified: 1773456868284
+  description: ""
+collection:
+  - url: https://api.massive.com/v2/aggs/ticker/AAPL/prev
+    name: Apple  OHLC
+    meta:
+      id: req_f8a9e7912b6346eda10fa12d8e305885
+      created: 1773456868287
+      modified: 1773457515009
+      isPrivate: false
+      description: ""
+      sortKey: -1773456868287
+    method: GET
+    parameters:
+      - name: adjusted
+        value: "true"
+        disabled: false
+      - name: apiKey
+        value: a6NpUFhWHU1kPbhTHxnvIbQKeHQLfnjr
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.polygon.io/v2/reference/news?ticker=TSLA&limit=1&apiKey=a6NpUFhWHU1kPbhTHxnvIbQKeHQLfnjr
+    name: Tesla hakkındaki en son haber
+    meta:
+      id: req_f5cab2d8d726476a9bd4fbafe403f2be
+      created: 1773457438379
+      modified: 1773457476421
+      isPrivate: false
+      description: ""
+      sortKey: -1773457438379
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.polygon.io/vX/reference/financials?ticker=AAPL&timeframe=quarterly&limit=4&apiKey=a6NpUFhWHU1kPbhTHxnvIbQKeHQLfnjr
+    name: Apple'ın son 4 çeyrekteki brüt gelirleri
+    meta:
+      id: req_d28c24940c73469ca47997ea9d549d65
+      created: 1773457561126
+      modified: 1773457612398
+      isPrivate: false
+      description: ""
+      sortKey: -1773457561126
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.polygon.io/v3/reference/tickers/META?apiKey=a6NpUFhWHU1kPbhTHxnvIbQKeHQLfnjr
+    name: Meta'nın (Facebook) piyasa değeri
+    meta:
+      id: req_4ca93618049345cb9045c4369f1faa8d
+      created: 1773457658110
+      modified: 1773458518654
+      isPrivate: false
+      description: ""
+      sortKey: -1773457658110
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.massive.com/v2/aggs/ticker/MRT/range/1/day/2025-11-03/2025-11-28?adjusted=true&sort=asc&limit=120&apiKey=a6NpUFhWHU1kPbhTHxnvIbQKeHQLfnjr
+    name: Martı hisse fiyatları
+    meta:
+      id: req_ea25ca14739c4dea8b97b5ae2c8130e0
+      created: 1773458521442
+      modified: 1773459403530
+      isPrivate: false
+      description: ""
+      sortKey: -1773458521442
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://api.massive.com/v2/aggs/ticker/NVDA/range/1/day/2025-11-03/2026-01-01?adjusted=true&sort=asc&limit=120&apiKey=a6NpUFhWHU1kPbhTHxnvIbQKeHQLfnjr
+    name: NVDIA son 41 gün
+    meta:
+      id: req_e679ee6d657342d5b8b50bcc1abe0cf2
+      created: 1773459792435
+      modified: 1773460024847
+      isPrivate: false
+      description: ""
+      sortKey: -1773459792435
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_ee9c4b142841d390e2a8f545d3a2bd4b0beedb28
+    created: 1773456868297
+    modified: 1773456868297
+environments:
+  name: Base Environment
+  meta:
+    id: env_ee9c4b142841d390e2a8f545d3a2bd4b0beedb28
+    created: 1773456868289
+    modified: 1773456868289
+    isPrivate: false
